@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		876206111AFD01BF000862E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876206101AFD01BF000862E3 /* AppDelegate.swift */; };
+		8791D49B1AFF88DE00984723 /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8791D49A1AFF88DE00984723 /* ColorButton.swift */; };
+		8791D49D1AFF9A3800984723 /* ColorWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8791D49C1AFF9A3800984723 /* ColorWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8762060B1AFD01BF000862E3 /* viewhierarchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewhierarchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8762060F1AFD01BF000862E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876206101AFD01BF000862E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8791D49A1AFF88DE00984723 /* ColorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
+		8791D49C1AFF9A3800984723 /* ColorWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				876206101AFD01BF000862E3 /* AppDelegate.swift */,
+				8791D49A1AFF88DE00984723 /* ColorButton.swift */,
+				8791D49C1AFF9A3800984723 /* ColorWord.swift */,
 				8762060E1AFD01BF000862E3 /* Supporting Files */,
 			);
 			path = viewhierarchy;
@@ -127,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				876206111AFD01BF000862E3 /* AppDelegate.swift in Sources */,
+				8791D49B1AFF88DE00984723 /* ColorButton.swift in Sources */,
+				8791D49D1AFF9A3800984723 /* ColorWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +259,7 @@
 				8762062A1AFD01BF000862E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
